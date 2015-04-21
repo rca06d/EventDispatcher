@@ -1,5 +1,5 @@
 // This is a way to emulate the native dom event api on any js object
-function EventEmitter ()
+function EventDispatcher ()
 {
 	var listeners = [];
 
